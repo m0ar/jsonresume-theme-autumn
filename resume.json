@@ -1,0 +1,250 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Edvard Hübinette",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "edvard@hubinette.me",
+    "phone": "+4670 432 63 36",
+    "url": "",
+    "summary": "Multi-faceted engineer particularly intrigued by infrastructure, internal tooling, build systems and performance. Enjoys building the tools necessary to provide leverage for others.",
+    "location": {
+      "address": "Vantgatan 3H",
+      "postalCode": "414 56",
+      "city": "Gothenburg",
+      "countryCode": "SE"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "m0ar",
+        "url": "https://github.com/m0ar"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hubinette",
+        "url": "https://www.linkedin.com/in/hubinette"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Nortical",
+      "location": "Gothenburg, Sweden",
+      "description": "Battery data analytics SaaS",
+      "position": "Software / DevOps Engineer",
+      "url": "https://nortical.com",
+      "startDate": "2019-10-01",
+      "summary": "Designed and implemented the majority of all infrastructure and services as a founding engineer.",
+      "highlights": [
+        "Architecting efficient data pipelines on Google Cloud",
+        "Leveraging Nix for deterministic builds, checks, and development environments",
+        "Designing a capable CI/CD workflow with GitHub Actions, Terraform, and Nix",
+        "Building a routing layer using the Cloudflare serverless stack",
+        "Collaborating closely with the analytics team",
+        "Running technical due-diligence presentations for investors"
+      ]
+    },
+    {
+      "name": "MakerDAO",
+      "location": "Remote",
+      "description": "Renowned finance project on Ethereum",
+      "position": "Software Engineer",
+      "url": "https://makerdao.com",
+      "startDate": "2018-07-01",
+      "endDate": "2020-01-01",
+      "summary": "Creating resilient and performant services to support the Dai stablecoin and CDP platform.",
+      "highlights": [
+        "Diving deep into the Ethereum VM and decentralised finance",
+        "Developing VulcanizeDB, a data caching and indexing service for Ethereum",
+        "Working with a stellar team spread across all continents"
+      ]
+    },
+    {
+      "_hide": true,
+      "name": "Cacti AB",
+      "location": "Gothenburg, Sweden",
+      "description": "Small consultancy firm",
+      "position": "Software Engineer",
+      "startDate": "2016-09-01",
+      "endDate": "2017-05-01",
+      "summary": "Part-time work during studies.",
+      "highlights": [
+        "Worked on a global whistleblowing platform",
+        "Backend work in C#/ASP.NET, with a React/Redux frontend"
+      ]
+    },
+    {
+      "_hide": true,
+      "name": "Göteborg Energi",
+      "location": "Gothenburg, Sweden",
+      "description": "Utilities company",
+      "position": "Software Developer / System Administrator",
+      "url": "https://göteborgenergi.se",
+      "startDate": "2015-08-01",
+      "endDate": "2016-08-01",
+      "summary": "Part-time work during studies.",
+      "highlights": [
+        "Working on a Python crawler for diagnosing the smart electrical grid",
+        "Learning hard truths about real-life networking issues"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chalmers University of Technology",
+      "url": "https://www.chalmers.se/en",
+      "area": "Computer Science",
+      "studyType": "Master's",
+      "startDate": "2016-08-01",
+      "endDate": "2018-06-01"
+    },
+    {
+      "institution": "Chalmers University of Technology",
+      "url": "https://www.chalmers.se/en",
+      "area": "Information Technology",
+      "studyType": "Bachelor's",
+      "startDate": "2013-08-01",
+      "endDate": "2016-06-01"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "DevCon Programme Committee",
+      "position": "Track planner",
+      "url": "https://devcon.org",
+      "startDate": "2019-06-01",
+      "endDate": "2019-12-01",
+      "summary": "Reviewing speaker applications and finalizing track programming for DevCon 2019 in Osaka. DevCon is one of the biggest Ethereum developer conferences."
+    },
+    {
+      "organization": "HSB Gråberget & Chalmers Conference Center",
+      "position": "Member of the Board",
+      "startDate": "2016-05-01",
+      "summary": "Long-term strategic work in the formal board of a restaurant group, followed by a large housing association."
+    }
+  ],
+  "awards": [],
+  "_publications": [
+    {
+      "name": "Better Implicit Parallelism",
+      "publisher": "Chalmers University of Technology",
+      "releaseDate": "2018-06-01",
+      "website": "https://odr.chalmers.se/server/api/core/bitstreams/5678d796-a5ab-4b0f-9533-3fdb31699801/content",
+      "summary": "MSc thesis on increasing the implicit parallelism in the Haskell compiler."
+    }
+  ],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Go",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Elixir",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Shell scripting",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Nix",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "CI/CD",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Haskell",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Ethereum",
+      "level": "Advanced",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional fluency"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music production",
+      "keywords": []
+    },
+    {
+      "name": "Snowboarding",
+      "keywords": []
+    },
+    {
+      "name": "Hiking",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Niklas Kunkel (Backend Services Manager, MakerDAO)",
+      "reference": "Edvard is a talented developer that any team could benefit from. He embodies the rare combination of a strong technical background, gifted communicator, and synergistic collaborator. He was able to pick up the codebase of one our projects quickly without much assistance, and started contributing improvements almost immediately, cementing himself as a keystone for the team. He has a keen eye for taking a step back and refactoring complex systems as they evolve. He’s self-directed and can be trusted to deliver comprehensive solutions even with minimal oversight. If given the opportunity, I would love to work with Edvard again."
+    },
+    {
+      "name": "Rob Mulholand (Principal Software Crafter, 8th Light)",
+      "reference": "Edvard was a huge asset to our team [at MakerDAO]. He’s an extremely capable developer, with demonstrated ability to pick up new skills and complete tasks on time. But perhaps more importantly, he’s a great collaborator who pushed the team to drive out inefficiencies in our architecture and workflows. Edvard seamlessly onboarded into our technology stack, bringing fresh perspective and identifying bottlenecks that were difficult for the rest of us to see. In short order, he was taking ownership of big picture improvements that made our code more idiomatic and easier to change. The design improvements that he drove make our work easier to this day, months after he’s rolled off. I’d love the opportunity to work with him again, and know he’ll be a great benefit to any team."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Summer of Haskell stipendiate",
+      "description": "Recieved a grant for programming language research on linear type systems",
+      "highlights": [
+        "Documented in a short but popular blog series (see repo)",
+        "Community interaction in post discussion threads on Reddit"
+      ],
+      "keywords": [],
+      "startDate": "2017-06-01",
+      "endDate": "2017-09-01",
+      "url": "https://github.com/m0ar/safe-streaming",
+      "roles": [],
+      "entity": "haskell.org",
+      "type": "research"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
