@@ -1,20 +1,20 @@
 {
   "name": "jsonresume-theme-autumn",
-  "version": "1.0.1",
-  "description": "Autumn theme for the JSON Resume Project",
-  "author": "Lorenzo Dal'Aqua",
+  "version": "1.0.0",
+  "description": "My theme for the JSON Resume Project, based on Autumn",
+  "author": "Edvard Hübinette",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lorenzodalaqua/jsonresume-theme-autumn"
+    "url": "https://github.com/m0ar/jsonresume-theme-autumn"
   },
   "scripts": {
-    "start": "resume serve --theme .",
-    "export": "gulp cssExport && resume export resume.pdf --theme .",
+    "generate": "gulp cssExport && resume export --format html --theme . dist/index.html",
+    "export": "gulp cssExport && resume export --theme . dist/resume.pdf",
     "dev": "gulp"
   },
   "license": "MIT",
   "dependencies": {
-    "country-code-lookup": "0.0.20",
+    "country-code-lookup": "^0.0.20",
     "date-fns": "^2.28.0",
     "handlebars": "^4.7.7",
     "handlebars-wax": "^6.1.0"
@@ -28,7 +28,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-webserver": "^0.9.1",
     "postcss": "^8.4.5",
-    "resume-cli": "^3.0.5",
+    "resume-cli": "^3.0.8",
     "tailwindcss": "^3.0.13"
   }
 }

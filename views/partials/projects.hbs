@@ -1,0 +1,9 @@
+{{#if resume.projects.length}}
+<section>
+	<h2>Projects</h2>
+	{{#each resume.projects}}
+    {{> section-item title=name website=url subtitle=entity  date=releaseDate text=summary list=highlights}}
+	{{/each}}
+</section>
+{{/if}}
+

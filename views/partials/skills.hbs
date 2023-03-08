@@ -2,7 +2,10 @@
 <section>
 	<h2>Skills</h2>
 	{{#each resume.skills}}
-    {{> keyword-section-item name=name keywords=keywords}}
+    {{> keyword-section-item
+      name=name
+      keywords=keywords
+    }}
 	{{/each}}
 </section>
 {{/if}}

@@ -6,7 +6,7 @@ module.exports = {
   VIEWS_DIR: __dirname + '/views',
   PARTIALS_DIR: __dirname + '/views/partials',
   STYLES_DIR: __dirname + '/styles',
-  OUTPUT_DIR: __dirname + '/public',
+  OUTPUT_DIR: __dirname + '/dist',
 
   TEMPLATE_FILENAME: 'resume.hbs',
   HTML_FILENAME: 'index.html',
@@ -14,6 +14,7 @@ module.exports = {
 
   RESUME_PATH: __dirname + '/resume.json',
   FALLBACK_RESUME_PATH: __dirname + '/resume-sample.json',
+
   helpers: {
     uppercase: function (str) {
       return str.toUpperCase();
