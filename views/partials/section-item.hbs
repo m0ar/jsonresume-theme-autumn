@@ -12,13 +12,13 @@
         {{/if}}
       </h3>
       {{#if subtitle}}
-        <p class="font-bold text-orange-700">
+        <p class="font-bold text-primary-700">
           {{subtitle}}
         </p>
       {{/if}}
     </div>
     {{#if startDate}}
-      <div class="text-sm text-orange-500">
+      <div class="text-sm text-primary-500">
         {{formatDate startDate}}
         {{#if endDate}}
           - {{formatDate endDate}}
@@ -28,7 +28,7 @@
       </div>
       {{else}}
         {{#if date}}
-          <div class="text-sm text-orange-500">
+          <div class="text-sm text-primary-500">
             {{formatDate date}}
           </div>
         {{/if}}
