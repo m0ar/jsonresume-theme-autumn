@@ -8,8 +8,9 @@
     "url": "https://github.com/m0ar/jsonresume-theme-autumn"
   },
   "scripts": {
-    "generate": "gulp cssExport && resume export --format html --theme . dist/index.html",
-    "export": "gulp cssExport && resume export --theme . dist/resume.pdf",
+    "prep": "gulp cssExport && mkdir -p dist",
+    "generate": "npm run prep && resume export --format html --theme . dist/index.html",
+    "export": "npm run prep && resume export --theme . dist/resume.pdf",
     "dev": "gulp"
   },
   "license": "MIT",
