@@ -57,6 +57,8 @@
       "highlights": [
         "Diving deep into the Ethereum VM and decentralised finance",
         "Developing VulcanizeDB, a data caching and indexing service for Ethereum",
+        "Writing a lot of performant Go",
+        "Optimising database modelling and queries in PostgreSQL",
         "Working with a stellar team spread across all continents"
       ]
     },
@@ -176,17 +178,22 @@
       "keywords": []
     },
     {
+      "name": "Git",
+      "level": "Master",
+      "keywords": []
+    },
+    {
       "name": "Google Cloud",
       "level": "Advanced",
       "keywords": []
     },
     {
-      "name": "Haskell",
+      "name": "Ethereum",
       "level": "Advanced",
       "keywords": []
     },
     {
-      "name": "Ethereum",
+      "name": "Haskell",
       "level": "Advanced",
       "keywords": []
     }
