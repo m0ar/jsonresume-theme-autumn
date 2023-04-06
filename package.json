@@ -9,8 +9,9 @@
   },
   "scripts": {
     "prep": "gulp cssExport && mkdir -p dist",
-    "generate": "npm run prep && resume export --format html --theme . dist/index.html",
-    "export": "npm run prep && resume export --theme . dist/resume.pdf",
+    "build:html": "resume export --format html --theme . dist/index.html",
+    "build:pdf": "resume export --theme . dist/resume.pdf",
+    "build": "npm run prep && npm run build:html && npm run build:pdf",
     "dev": "gulp"
   },
   "license": "MIT",

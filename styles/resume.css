@@ -25,4 +25,25 @@
   a {
     @apply hover:underline;
   }
+  .br-icon {
+    @apply bg-primary-500 rounded-full;
+    @apply fixed bottom-6 right-6 z-50 h-24 w-24;
+    @apply transition duration-200;
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.58);
+    -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+    -webkit-transform: scale(0.92);
+              transform: scale(0.92);
+  }
+  .br-icon:hover {
+    @apply rotate-180;
+  }
+  .br-icon::before {
+    @apply absolute top-1/2 left-1/2;
+    @apply text-white content-["pdf?"];
+    -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 500;
+  }
 }
