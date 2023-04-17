@@ -25,7 +25,8 @@ function render(resume) {
 
   return Handlebars.compile(resumeTemplate)({
     css: css,
-    resume: resume
+    resume: resume,
+    data: { isPdf: process.env.RESUME_TYPE === "pdf" }
   });
 }
 

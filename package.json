@@ -10,7 +10,7 @@
   "scripts": {
     "prep": "gulp cssExport && mkdir -p dist",
     "build:html": "resume export --format html --theme . dist/index.html",
-    "build:pdf": "resume export --theme . dist/resume.pdf",
+    "build:pdf": "RESUME_TYPE=pdf resume export --theme . dist/resume.pdf",
     "build": "npm run prep && npm run build:html && npm run build:pdf",
     "dev": "gulp"
   },

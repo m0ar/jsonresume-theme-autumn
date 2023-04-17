@@ -60,6 +60,8 @@
         {{> interests }}
       </div>
     </div>
-	<a class="br-icon" href="resume.pdf"/>
+  {{#unless data.isPdf }}
+  <a class="br-icon" href="resume.pdf"/>
+  {{/unless}}
 	</body>
 </html>
