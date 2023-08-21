@@ -52,7 +52,9 @@
         {{> volunteer }}
         {{> projects }}
         {{> publications }}
+        {{#unless data.isPdf }}
         {{> references }}
+        {{/unless}}
       </div>
       <div class="order-1 col-span-1 mb-4">
         {{> skills }}

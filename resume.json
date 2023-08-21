@@ -29,12 +29,23 @@
   },
   "work": [
     {
+      "name": "DeSci Labs",
+      "location": "Remote",
+      "description": "Building technologies for a radically accessible scientific record.",
+      "position": "Senior Software Engineer",
+      "url": "https://desci.com",
+      "startDate": "2023-06-01",
+      "summary": "Protocol architecture and backend / infrastructure engineering.",
+      "highlights": []
+    },
+    {
       "name": "Nortical",
       "location": "Gothenburg, Sweden",
       "description": "Battery data analytics SaaS",
       "position": "Software / DevOps Engineer",
       "url": "https://nortical.com",
       "startDate": "2019-10-01",
+      "endDate": "2023-05-01",
       "summary": "Designed and implemented the majority of all infrastructure and services as a founding engineer.",
       "highlights": [
         "Architecting efficient data pipelines on Google Cloud",
