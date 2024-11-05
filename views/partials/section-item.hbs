@@ -35,12 +35,12 @@
     {{/if}}
   </div>
   {{#if text}}
-    <p class="mb-2">{{text}}</p>
+    <p class="mb-1">{{text}}</p>
   {{/if}}
   {{#if list.length}}
-    <ul class="list-disc list-inside">
+    <ul class="list-disc list-inside leading-tight">
       {{#each list}}
-        <li class="mb-1">{{.}}</li>
+        <li>{{.}}</li>
       {{/each}}
     </ul>
   {{/if}}

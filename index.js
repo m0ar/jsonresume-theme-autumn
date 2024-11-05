@@ -33,6 +33,13 @@ function render(resume) {
 module.exports = {
   render: render,
   pdfRenderOptions: {
-    mediaType: 'print'
+    format: 'A4',
+    mediaType: 'print',
+    margin: {
+      top: '1cm',
+      bottom: '1cm',
+      left: '0cm',
+      right: '0cm',
+    }
   }
 };

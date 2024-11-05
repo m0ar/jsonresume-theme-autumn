@@ -7,10 +7,10 @@
     "email": "edvard@hubinette.me",
     "phone": "+4670 432 63 36",
     "url": "",
-    "summary": "Multi-faceted engineer particularly intrigued by infrastructure, internal tooling, build systems and performance. Enjoys building the tools necessary to provide leverage for others.",
+    "summary": "A technical problem solver that thrives in finding solutions to tricky issues all over the stack. Strong computer science fundamentals, and a principled engineer with a focus on maintanability and reliability. Comfortable in all phases of software engineering, from prototype to optimisation. Experienced with decentralised protocols, both client internals as well as smart contract and data storage protocol design. Enjoys building high-leverage automation to boost team productivity, as well as iterating on ceremonies for happy developers.",
     "location": {
       "address": "Vantgatan 3H",
-      "postalCode": "414 56",
+      "postalCode": "414 57",
       "city": "Gothenburg",
       "countryCode": "SE"
     },
@@ -32,11 +32,18 @@
       "name": "DeSci Labs",
       "location": "Remote",
       "description": "Building technologies for a radically accessible scientific record.",
-      "position": "Senior Software Engineer",
+      "position": "Protocol Architect / Senior Software Engineer",
       "url": "https://desci.com",
       "startDate": "2023-06-01",
-      "summary": "Protocol architecture and backend / infrastructure engineering.",
-      "highlights": []
+      "summary": "Evolving the protocol, backend services, and developing open-source libs.",
+      "highlights": [
+        "Spearheaded protocol redesign for decentralised scientific publishing",
+        "Redefined the product fundamentals to achieve best-in-class web3 UX",
+        "Increased team throughput by optimising CI efficiency and creating DX tooling",
+        "Improving infrastructure and service observability in our kubernetes clusters",
+        "Optimising data flow in our complex react/redux/nextjs webapp",
+        "Running technical seminars and giving conference talks"
+      ]
     },
     {
       "name": "Nortical",
@@ -59,7 +66,7 @@
     {
       "name": "MakerDAO",
       "location": "Remote",
-      "description": "Renowned finance project on Ethereum",
+      "description": "Renowned decentralised finance project",
       "position": "Software Engineer",
       "url": "https://makerdao.com",
       "startDate": "2018-07-01",
@@ -134,6 +141,7 @@
       "organization": "HSB Gråberget & Chalmers Conference Center",
       "position": "Member of the Board",
       "startDate": "2016-05-01",
+      "endDate": "2023-06-01",
       "summary": "Long-term strategic work in the formal board of a restaurant group, followed by a large housing association."
     }
   ],
@@ -154,6 +162,21 @@
       "keywords": []
     },
     {
+      "name": "Ethereum",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Ceramic",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "IPFS / IPLD",
+      "level": "Master",
+      "keywords": []
+    },
+    {
       "name": "Go",
       "level": "Advanced",
       "keywords": []
@@ -169,7 +192,7 @@
       "keywords": []
     },
     {
-      "name": "Shell scripting",
+      "name": "Bash",
       "level": "Master",
       "keywords": []
     },
@@ -189,6 +212,21 @@
       "keywords": []
     },
     {
+      "name": "Docker",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Build systems",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
       "name": "Git",
       "level": "Master",
       "keywords": []
@@ -199,7 +237,7 @@
       "keywords": []
     },
     {
-      "name": "Ethereum",
+      "name": "AWS",
       "level": "Advanced",
       "keywords": []
     },
