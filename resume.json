@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Edvard Hübinette",
-    "label": "Software Engineer",
+    "label": "Senior Software Engineer",
     "image": "",
     "email": "edvard@hubinette.me",
     "phone": "+4670 432 63 36",
     "url": "",
-    "summary": "A technical problem solver that thrives in finding solutions to tricky issues all over the stack. Strong computer science fundamentals, and a principled engineer with a focus on maintanability and reliability. Comfortable in all phases of software engineering, from prototype to optimisation. Experienced with decentralised protocols, both client internals as well as smart contract and data storage protocol design. Enjoys building high-leverage automation to boost team productivity, as well as iterating on ceremonies for happy developers.",
+    "summary": "Versatile engineer experienced in startups where wearing many hats is the norm. Strong CS fundamentals with a knack for quickly picking up new tools and abstractions. Comfortable across the stack: from infrastructure and developer tooling to backend services, web3 protocol design, and smart contracts. A reliable fixer who leaves the campsite cleaner than they found it.",
     "location": {
       "address": "Vantgatan 3H",
       "postalCode": "414 57",
@@ -35,32 +35,34 @@
       "position": "Protocol Architect / Senior Software Engineer",
       "url": "https://desci.com",
       "startDate": "2023-06-01",
-      "summary": "Evolving the protocol, backend services, and developing open-source libs.",
+      "summary": "Driving infrastructure moderinization, protocol architecture, and DX improvements across a distributed team.",
       "highlights": [
+        "Cut select cloud costs by ~90% by migrating to Nix-managed bare-metal servers",
         "Spearheaded protocol redesign for decentralised scientific publishing",
-        "Redefined the product fundamentals to achieve best-in-class web3 UX",
-        "Increased team throughput by optimising CI efficiency and creating DX tooling",
-        "Improving infrastructure and service observability in our kubernetes clusters",
-        "Optimising data flow in our complex react/redux/nextjs webapp",
-        "Running technical seminars and giving conference talks"
+        "Reduced CI runtimes by 80% and created smoother development environments",
+        "Onboarding and mentored several new engineers on protocol and infrastructure",
+        "Implemented observability stack across Kubernetes clusters",
+        "Diagnosed and resolved multiple performance bottlenecks across the stack",
+        "Ran technical seminars and giving conference talks"
       ]
     },
     {
       "name": "Nortical",
       "location": "Gothenburg, Sweden",
       "description": "Battery data analytics SaaS",
-      "position": "Software / DevOps Engineer",
+      "position": "Founding Software / Infrastructure Engineer",
       "url": "https://nortical.com",
       "startDate": "2019-10-01",
       "endDate": "2023-05-01",
-      "summary": "Designed and implemented the majority of all infrastructure and services as a founding engineer.",
+      "summary": "Designed and implemented the majority of all infrastructure and services.",
       "highlights": [
-        "Architecting efficient data pipelines on Google Cloud",
-        "Leveraging Nix for deterministic builds, checks, and development environments",
-        "Designing a capable CI/CD workflow with GitHub Actions, Terraform, and Nix",
-        "Building a routing layer using the Cloudflare serverless stack",
-        "Collaborating closely with the analytics team",
-        "Running technical due-diligence presentations for investors"
+        "Designed and built cost efficient data pipelines on Google Cloud from scratch",
+        "Developed high-throughput data collection & processing pipeline in Elixir",
+        "Leveraged Nix for deterministic builds, checks, and development environments",
+        "Designed sturdy CI/CD workflows with GitHub Actions, Terraform, and Nix",
+        "Enabled 3x faster time-to-deploy for analytics team models",
+        "Built a routing layer using the Cloudflare serverless stack",
+        "Ran technical due-diligence sessions with investors"
       ]
     },
     {
@@ -71,13 +73,13 @@
       "url": "https://makerdao.com",
       "startDate": "2018-07-01",
       "endDate": "2020-01-01",
-      "summary": "Creating resilient and performant services to support the Dai stablecoin and CDP platform.",
+      "summary": "Creating resilient and performant services to support the Dai stablecoin.",
       "highlights": [
-        "Diving deep into the Ethereum VM and decentralised finance",
-        "Developing VulcanizeDB, a data caching and indexing service for Ethereum",
-        "Writing a lot of performant Go",
-        "Optimising database modelling and queries in PostgreSQL",
-        "Working with a stellar team spread across all continents"
+        "Developed VulcanizeDB, a data caching and indexing service for Ethereum",
+        "Leveraged deep Ethereum VM knowledge to optimize data collection",
+        "Built high-throughput services in Go",
+        "Optimised database modelling and queries in PostgreSQL",
+        "Delivered major refactors for both performance and maintainability"
       ]
     },
     {
@@ -138,11 +140,17 @@
       "summary": "Reviewing speaker applications and finalizing track programming for DevCon 2019 in Osaka. DevCon is one of the biggest Ethereum developer conferences."
     },
     {
+      "organization": "DATIpilot BioBlock Innovationscommunity",
+      "position": "Member of the Board of Advisors",
+      "startDate": "2025-06-01",
+      "summary": "Steering BioBlock funding decisions by performing technical review of grant proposals."
+    },
+    {
       "organization": "HSB Gråberget & Chalmers Conference Center",
       "position": "Member of the Board",
       "startDate": "2016-05-01",
       "endDate": "2023-06-01",
-      "summary": "Long-term strategic work in the formal board of a restaurant group, followed by a large housing association."
+      "summary": "Board member for a restaurant group (14M+ EUR annual turnover), followed by a 560-unit housing association."
     }
   ],
   "awards": [],
@@ -158,6 +166,11 @@
   "skills": [
     {
       "name": "TypeScript",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "NodeJS",
       "level": "Master",
       "keywords": []
     },
@@ -209,6 +222,11 @@
     {
       "name": "Terraform",
       "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "FluxCD",
+      "level": "Advanced",
       "keywords": []
     },
     {
@@ -277,6 +295,10 @@
   ],
   "references": [
     {
+      "name": "Sina Iman (CTO, DeSci Labs)",
+      "reference": "I worked with Edvard as CTO, where I hired him as a Senior Software Engineer. He's a strong, dependable engineer who takes ownership, communicates clearly, and delivers high-quality work with consistency. He approaches complex problems very thoughtfully and is a reliable presence on any team. He's also a genuinely good person with high integrity and upbeat attitude, and I'd happily work with him again."
+    },
+    {
       "name": "Niklas Kunkel (Backend Services Manager, MakerDAO)",
       "reference": "Edvard is a talented developer that any team could benefit from. He embodies the rare combination of a strong technical background, gifted communicator, and synergistic collaborator. He was able to pick up the codebase of one our projects quickly without much assistance, and started contributing improvements almost immediately, cementing himself as a keystone for the team. He has a keen eye for taking a step back and refactoring complex systems as they evolve. He’s self-directed and can be trusted to deliver comprehensive solutions even with minimal oversight. If given the opportunity, I would love to work with Edvard again."
     },
@@ -288,7 +310,7 @@
   "projects": [
     {
       "name": "Summer of Haskell stipendiate",
-      "description": "Recieved a grant for programming language research on linear type systems",
+      "description": "Received a grant for programming language research on linear type systems",
       "highlights": [
         "Documented in a short but popular blog series (see repo)",
         "Community interaction in post discussion threads on Reddit"
@@ -300,6 +322,30 @@
       "roles": [],
       "entity": "haskell.org",
       "type": "research"
+    },
+    {
+      "name": "Conference Talks",
+      "description": "Technical presentations at industry conferences",
+      "highlights": [
+        "DeSci Berlin (2025) | Panel on Reproducible Research in DeSci",
+        "ResearchHub 'The Roast of DeSci' (2025) | Defended protocol design",
+        "IPFS Connect (2023) | Modelling the scientific record as a DAG",
+        "PL Summit (2023) | Lightning talk and 2-hour protocol deep-dive workshop"
+      ],
+      "keywords": [],
+      "roles": [],
+      "type": "speaking"
+    },
+    {
+      "name": "Open source contributions",
+      "description": "Upstream contributions and maintained packages across the ecosystem",
+      "highlights": [
+        "Contributions to IPFS, rust-ceramic, GHC, cloudflare-exporter, autorandr, etc",
+        "Maintaining AUR packages"
+      ],
+      "keywords": [],
+      "roles": [],
+      "type": "open-source"
     }
   ],
   "meta": {
